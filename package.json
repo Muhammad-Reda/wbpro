@@ -1,0 +1,40 @@
+{
+    "name": "vue-app",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview --port 5050",
+        "test:unit": "vitest --environment jsdom",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "axios": "^0.27.2",
+        "bootstrap": "^5.1.3",
+        "bootstrap-icons": "^1.8.1",
+        "express": "^4.17.3",
+        "serve-static": "^1.15.0",
+        "vue": "^3.2.31",
+        "vue-burger-menu": "^2.0.5",
+        "vue-router": "^4.0.14"
+    },
+    "devDependencies": {
+        "@rushstack/eslint-patch": "^1.1.0",
+        "@vitejs/plugin-vue": "^2.3.1",
+        "@vue/eslint-config-prettier": "^7.0.0",
+        "@vue/test-utils": "^2.0.0-rc.18",
+        "eslint": "^8.5.0",
+        "eslint-plugin-vue": "^8.2.0",
+        "file-loader": "^6.2.0",
+        "jsdom": "^19.0.0",
+        "node-sass": "^7.0.1",
+        "prettier": "^2.5.1",
+        "sass-loader": "^12.6.0",
+        "vite": "^2.9.1",
+        "vitest": "^0.8.1"
+    }
+}
